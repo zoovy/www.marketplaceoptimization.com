@@ -1,0 +1,11 @@
+
+hello
+
+<?
+require_once('magpierss/rss_fetch.inc');
+// https://www.facebook.com/pages/Marketplace-Optimization/222212764502232
+// http://www.facebook.com/feeds/page.php?id=222212764502232&format=rss20
+$rss = fetch_rss("http://www.facebook.com/feeds/page.php?id=222212764502232&format=rss20");
+?>
+
+goodbye
